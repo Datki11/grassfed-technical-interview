@@ -15,9 +15,10 @@ You'll build a small **Team Directory** app in React + TypeScript that loads peo
 
 ## Getting started
 
-1. Click **Fork** (top of the page) so you have your own copy.
-2. The app is already running in the preview panel.
+1. Your interviewer has set up this workspace for you, so there's nothing to install or fork.
+2. The app is already running in the **Preview** panel.
 3. Start coding in `src/UserDirectory.tsx`. Add new files or components wherever you like.
+4. This is a shared, live session: your interviewer can see your code as you type and may occasionally add a hint. You're driving.
 
 Useful files:
 
