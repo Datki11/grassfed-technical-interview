@@ -1,0 +1,93 @@
+/* Basic styling so the app looks reasonable. Styling is NOT being assessed.
+   Optional class names you can use:
+   .search, .status, .error, .layout, .user-list, .user-card,
+   .user-card.selected, .user-card img, .details-panel */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #f5f6f8;
+  color: #1f2328;
+}
+
+.app { max-width: 1000px; margin: 0 auto; padding: 24px 16px; }
+.app-header h1 { margin: 0 0 16px; font-size: 28px; }
+
+.directory { display: flex; flex-direction: column; gap: 16px; }
+
+.search {
+  width: 100%;
+  max-width: 360px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #c8ccd2;
+  border-radius: 8px;
+}
+
+.status { color: #59636e; }
+.error {
+  color: #a40e26;
+  background: #ffebe9;
+  border: 1px solid #ffcecb;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 16px;
+  align-items: start;
+}
+@media (max-width: 720px) { .layout { grid-template-columns: 1fr; } }
+
+.user-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.user-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.user-card:hover { border-color: #c8ccd2; }
+.user-card.selected { border-color: #0969da; }
+.user-card img { width: 48px; height: 48px; border-radius: 50%; background: #e6e8eb; }
+.user-card .name { font-weight: 600; }
+.user-card .meta { font-size: 14px; color: #59636e; }
+
+.details-panel {
+  position: sticky;
+  top: 16px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.details-panel h2 { margin-top: 0; font-size: 20px; }
+
+button.secondary {
+  padding: 8px 14px;
+  font: inherit;
+  border: 1px solid #c8ccd2;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}

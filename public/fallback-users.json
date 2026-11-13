@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Avery",
+      "lastName": "Stone",
+      "email": "avery.stone@example.com",
+      "phone": "+1 555-0101",
+      "image": "https://dummyjson.com/icon/avery/128",
+      "company": {
+        "name": "Northwind Labs",
+        "title": "Frontend Engineer",
+        "department": "Engineering"
+      },
+      "address": {
+        "address": "107 Example Street",
+        "city": "Austin",
+        "state": "Texas"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Jordan",
+      "lastName": "Blake",
+      "email": "jordan.blake@example.com",
+      "phone": "+1 555-0102",
+      "image": "https://dummyjson.com/icon/jordan/128",
+      "company": {
+        "name": "Bluebird Co",
+        "title": "Product Manager",
+        "department": "Product"
+      },
+      "address": {
+        "address": "114 Example Street",
+        "city": "Denver",
+        "state": "Colorado"
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Riley",
+      "lastName": "Chen",
+      "email": "riley.chen@example.com",
+      "phone": "+1 555-0103",
+      "image": "https://dummyjson.com/icon/riley/128",
+      "company": {
+        "name": "Northwind Labs",
+        "title": "QA Analyst",
+        "department": "Engineering"
+      },
+      "address": {
+        "address": "121 Example Street",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Morgan",
+      "lastName": "Patel",
+      "email": "morgan.patel@example.com",
+      "phone": "+1 555-0104",
+      "image": "https://dummyjson.com/icon/morgan/128",
+      "company": {
+        "name": "Harbor Systems",
+        "title": "Designer",
+        "department": "Design"
+      },
+      "address": {
+        "address": "128 Example Street",
+        "city": "Chicago",
+        "state": "Illinois"
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "Casey",
+      "lastName": "Nguyen",
+      "email": "casey.nguyen@example.com",
+      "phone": "+1 555-0105",
+      "image": "https://dummyjson.com/icon/casey/128",
+      "company": {
+        "name": "Bluebird Co",
+        "title": "Backend Engineer",
+        "department": "Engineering"
+      },
+      "address": {
+        "address": "135 Example Street",
+        "city": "Atlanta",
+        "state": "Georgia"
+      }
+    },
+    {
+      "id": 6,
+      "firstName": "Taylor",
+      "lastName": "Brooks",
+      "email": "taylor.brooks@example.com",
+      "phone": "+1 555-0106",
+      "image": "https://dummyjson.com/icon/taylor/128",
+      "company": {
+        "name": "Harbor Systems",
+        "title": "Support Lead",
+        "department": "Support"
+      },
+      "address": {
+        "address": "142 Example Street",
+        "city": "Phoenix",
+        "state": "Arizona"
+      }
+    },
+    {
+      "id": 7,
+      "firstName": "Quinn",
+      "lastName": "Reyes",
+      "email": "quinn.reyes@example.com",
+      "phone": "+1 555-0107",
+      "image": "https://dummyjson.com/icon/quinn/128",
+      "company": {
+        "name": "Northwind Labs",
+        "title": "Data Analyst",
+        "department": "Analytics"
+      },
+      "address": {
+        "address": "149 Example Street",
+        "city": "Boston",
+        "state": "Massachusetts"
+      }
+    },
+    {
+      "id": 8,
+      "firstName": "Jamie",
+      "lastName": "Okafor",
+      "email": "jamie.okafor@example.com",
+      "phone": "+1 555-0108",
+      "image": "https://dummyjson.com/icon/jamie/128",
+      "company": {
+        "name": "Bluebird Co",
+        "title": "Engineering Manager",
+        "department": "Engineering"
+      },
+      "address": {
+        "address": "156 Example Street",
+        "city": "Portland",
+        "state": "Oregon"
+      }
+    },
+    {
+      "id": 9,
+      "firstName": "Skyler",
+      "lastName": "Diaz",
+      "email": "skyler.diaz@example.com",
+      "phone": "+1 555-0109",
+      "image": "https://dummyjson.com/icon/skyler/128",
+      "company": {
+        "name": "Harbor Systems",
+        "title": "Recruiter",
+        "department": "People"
+      },
+      "address": {
+        "address": "163 Example Street",
+        "city": "Nashville",
+        "state": "Tennessee"
+      }
+    },
+    {
+      "id": 10,
+      "firstName": "Drew",
+      "lastName": "Kim",
+      "email": "drew.kim@example.com",
+      "phone": "+1 555-0110",
+      "image": "https://dummyjson.com/icon/drew/128",
+      "company": {
+        "name": "Northwind Labs",
+        "title": "Mobile Engineer",
+        "department": "Engineering"
+      },
+      "address": {
+        "address": "170 Example Street",
+        "city": "Raleigh",
+        "state": "North Carolina"
+      }
+    }
+  ],
+  "total": 10,
+  "skip": 0,
+  "limit": 10
+}
